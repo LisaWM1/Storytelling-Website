@@ -1,0 +1,76 @@
+/* Body background color */
+body {
+    background-color: #f8f1e4; /* Light Creamy Beige */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+/* Section styles */
+section {
+    margin: 40px;
+}
+
+/* Table of contents */
+.table-of-contents ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.table-of-contents li {
+    padding: 10px;
+    background-color: #fff3e0;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    transition: background-color 0.3s;
+}
+
+.table-of-contents li:hover {
+    background-color: #ffd699;
+}
+
+/* Style paragraphs and content for readability */
+p {
+    color: rgb(17, 92, 67);
+    font-size: large;
+    font-family: fantasy;
+    margin: 20px 0;
+    padding: 10px;
+    border-style: dashed;
+    border-color: black;
+    background-color: #ffffff;
+    border-radius: 8px;
+    line-height: 1.6;
+}
+
+/* Style anchor links */
+a {
+    color: #0073e6;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #005bb5;
+    text-decoration: underline;
+}
+
+/* Image styling */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
